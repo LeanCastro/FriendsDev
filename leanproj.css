@@ -157,5 +157,21 @@ span {
     [class*="col-"] {
       width: 100%;
     }
-    
+    .hr1 {
+        width: 158px;
+        margin-left: 125px ;
+    }
+    .hr2 {
+        width: 100%;
+    }
+    .last {
+        margin-top: 220%;
+        text-align: center;
+    }
+    .itanh1 {
+        margin-left: 110px;
+    }
+    .div3{
+        height: auto;
+    }
   }
