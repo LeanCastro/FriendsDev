@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(17, 17, 17);
+    font-family: Arial;
+}
+html, body, .main {
+    width: 100%;
+    height: 100vh;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.div1 {
+    width: 290px;
+    height: 354px;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    transition: .3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255,0.2);
+    background: radial-gradient(circle at top right, transparent
+    340px, rgba(255, 255, 255,0.3)),
+    radial-gradient(circle at bottom left, transparent
+    340px, rgba(255, 255, 255,0.3));
+    box-shadow: 1px 1px 2px 0px rgba(255, 255, 255,0.4);
+    filter: blur(5%);
+    transition: 0.3s ease-in-out;
+}
+.div2 {
+    width: 295px;
+    height: 370px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    transition: .3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255,0.3);
+    background: radial-gradient(circle at top right, transparent
+    340px, rgba(255, 255, 255,0.3)),
+    radial-gradient(circle at bottom left, transparent
+    340px, rgba(255, 255, 255,0.3));
+    box-shadow: 1px 1px 3px 0px rgba(255, 255, 255, 0.451);
+    filter: blur(5%);
+    transition: 0.3s ease-in-out;
+}
+.hr2 {
+    width: 220px;
+}
+img {
+    margin-right: 190px;
+    width: 93px;
+    height: 90px;
+    border-radius: 100%;
+    padding: 5px;
+    border: 2px solid white;
+}
+h1, h2, p, li, h3 {
+    color: rgb(206, 203, 203);
+}
+h2 {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(212, 209, 209);
+}
+h1 {
+    font-family: 'Rubik Puddles', cursive;
+    letter-spacing: 5px;
+    margin-bottom: 13px;
+    margin-left: 93px;
+    margin-top: -25px;
+    font-size: 20px;
+}
+p {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s;
+}
+li {
+   font-size: 14px;
+   text-align: start;
+   margin-left: -30px;
+   font-family: 'Teko', sans-serif;
+   font-weight: 900;
+   letter-spacing: 2px;
+   transition: 0.3s all;
+}
+
+.icon {
+    font-size: 30px;
+    color: rgb(63, 63, 211);
+}
+.git {
+    font-size: 30px;
+    color: rgb(63, 63, 211);
+    text-decoration: none;
+    margin-left: 180px;
+}
+.git, .icon {
+    padding: 5px;
+    transition: 0.3s;
+}
+h3 {
+    font-size: 13px;
+    text-align: start;
+    margin-top: -40px;
+}
+.h3ros {
+    margin-top: 10px;
+}
+.h3itan {
+    margin-top: -0px;
+    margin-bottom: -5px;
+}
+p:hover, li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.div1:hover{
+    width: 290px;
+    height: 380px;
+}
+.icon:hover, .git:hover {
+    color: rgb(79, 79, 90);
+    font-size: 35px;
+}
+.div2:hover {
+    height: 320px;
+}
+.last {
+    color: #9e9e9e;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+span {
+    ffont-family: 'Indie Flower', cursive;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #9e9e9e;
+}
+.end {
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+  }
